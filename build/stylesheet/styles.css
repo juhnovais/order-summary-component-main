@@ -1,0 +1,120 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(../../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-height: 100%;
+}
+@media only screen and (min-width: 560px) {
+  body {
+    background-image: url(../../images/pattern-background-desktop.svg);
+  }
+}
+body main {
+  max-width: 330px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+body main .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+body main .img img {
+  max-height: 100%;
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+body main .contentWrap {
+  padding: 26px;
+}
+body main .contentWrap a {
+  transition: 0.5s;
+}
+body main .contentWrap .content {
+  text-align: center;
+}
+body main .contentWrap .content h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin-top: 0;
+}
+body main .contentWrap .content p {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.6;
+}
+body main .contentWrap .plan {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 26px;
+  margin-top: 26px;
+}
+body main .contentWrap .plan .planSummary {
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+}
+body main .contentWrap .plan .planSummary img {
+  width: auto;
+  height: 100%;
+}
+body main .contentWrap .plan .planSummary p {
+  margin: 0;
+  line-height: 1.6;
+}
+body main .contentWrap .plan .planSummary p.planDescription span.planTitle {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+body main .contentWrap .plan .planSummary p.planDescription span.planPrice {
+  color: hsl(224, 23%, 55%);
+}
+body main .contentWrap .plan a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+}
+body main .contentWrap .plan a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+body main .contentWrap .ctas {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  gap: 16px;
+  font-weight: 700;
+}
+body main .contentWrap .ctas a {
+  text-decoration: none;
+}
+body main .contentWrap .ctas a.pay {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 15px;
+}
+body main .contentWrap .ctas a.pay:hover {
+  opacity: 0.6;
+}
+body main .contentWrap .ctas a.cancel {
+  color: hsl(224, 23%, 55%);
+}
+body main .contentWrap .ctas a.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/*# sourceMappingURL=styles.css.map */
